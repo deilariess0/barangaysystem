@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { Activity, Bell, BookOpen, CalendarDays, ChartNoAxesColumn, ClipboardList, FileCheck2, House, LayoutDashboard, Menu, Megaphone, Search, Settings, ShieldAlert, Users, Wallet, X, UserCog, ScrollText, User, LogOut } from 'lucide-react';
 
 const nav = [
-  { label: 'Main', items: [['Dashboard', '/dashboard', LayoutDashboard], ['Residents', '/residents', Users], ['Households', '/households', House], ['Barangay Zensus', '/census', ChartNoAxesColumn], ['Certificates', '/certificates', FileCheck2], ['Requests', '/requests', ClipboardList], ['Complaints', '/complaints', ShieldAlert], ['Blotter', '/blotter', BookOpen]] },
+  { label: 'Main', items: [['Dashboard', '/dashboard', LayoutDashboard], ['Residents', '/residents', Users], ['Households', '/households', House], ['Barangay Census', '/census', ChartNoAxesColumn], ['Certificates', '/certificates', FileCheck2], ['Requests', '/requests', ClipboardList], ['Complaints', '/complaints', ShieldAlert], ['Blotter', '/blotter', BookOpen]] },
   { label: 'Community', items: [['Payments', '/payments', Wallet], ['Announcements', '/announcements', Megaphone], ['Events', '/events', CalendarDays], ['Reports', '/reports', Activity]] },
   { label: 'System', items: [['User Management', '/users', UserCog], ['Audit Logs', '/audit-logs', ScrollText], ['Settings', '/settings', Settings]] }
 ] as const;
